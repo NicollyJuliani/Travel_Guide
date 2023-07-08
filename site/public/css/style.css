@@ -13,19 +13,21 @@
   width: 80%;
 }
 
+.content{
+  display: flex;
+  justify-content: space-between;
+  width: 100%; 
+}
+
 header{
-  height: 130px;
+  height: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: #48005A;
 }
 
-.content{
-  display: flex;
-  justify-content: space-between;
-  width: 100%; 
-}
+
 
 header .logo img{
     width: 220px;
@@ -48,7 +50,7 @@ ul li {
   cursor: pointer;
 }
 
-.btt_login .btt{
+.btt{
     width: 120px;
     height: 50px;
     border-radius: 10px;
@@ -73,9 +75,32 @@ ul li {
   transform: translateY(-1px);
 }
 
-.banner{
+.sessao1{
+  display: flex;
+  justify-content: center;
   background-image: url(../assets/banner_inicio.png); 
-  
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.526);
+  background-blend-mode: multiply;
+}
+
+.sessao1 .content{
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  margin: 200px 0px 200px 0px;
+}
+
+.sessao1 h1{
+  font-size: 35px;
+  align-self: center;
+}
+
+.sessao1 h2{
+  font-size: 20px;
 }
 
 
